@@ -1,21 +1,43 @@
-# Credit Card Approval Prediction
 
-This project predicts whether a credit card application should be approved or rejected using Machine Learning.
+# Project Report
 
-Technologies Used
+## Project Title
+Credit Card Approval Prediction using Machine Learning
 
+## Objective
+The objective of this project is to predict whether a customer's credit card application should be approved or rejected using machine learning algorithms.
+
+## Dataset
+- Application Record Dataset
+- Credit Record Dataset
+
+## Technologies Used
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
-- XGBoost
-- Flask
+- Matplotlib
+- Seaborn
+- Scikit-Learn
 - Google Colab
-- GitHub
 
-Algorithms
+## Machine Learning Model
+Random Forest Classifier
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- XGBoost
+## Workflow
+1. Data Collection
+2. Data Cleaning
+3. Feature Engineering
+4. Data Preprocessing
+5. Model Training
+6. Model Evaluation
+7. Model Saving
+
+## Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC Score
+
+## Outcome
+The Random Forest model successfully predicts credit card approval with high accuracy.
