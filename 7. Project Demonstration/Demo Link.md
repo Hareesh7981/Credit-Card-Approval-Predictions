@@ -1,10 +1,5 @@
 # Demo Video
 
-The demo video demonstrates:
+Demo Video Link:
 
-- Dataset Loading
-- Data Preprocessing
-- Model Training
-- Prediction
-- Flask Application
-- Output
+https://drive.google.com/file/d/1i_oc76Y5qQRRGNFYBwc2KttH1b_LKjtV/view?usp=drivesdk
