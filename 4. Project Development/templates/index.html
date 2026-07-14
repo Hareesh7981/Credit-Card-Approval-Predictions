@@ -2,9 +2,34 @@
 <html>
 <head>
     <title>Credit Card Approval Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-    <h1>Credit Card Approval Prediction</h1>
-    <p>Machine Learning Project using Flask</p>
+
+<div class="container">
+
+<h1>Credit Card Approval Prediction</h1>
+
+<form action="/predict" method="POST">
+
+<label>Income</label><br>
+<input type="number" name="income" required><br><br>
+
+<label>Employment Days</label><br>
+<input type="number" name="employment_days" required><br><br>
+
+<button type="submit">Predict</button>
+
+</form>
+
+{% if prediction %}
+
+<h2>{{ prediction }}</h2>
+
+{% endif %}
+
+</div>
+
 </body>
 </html>
